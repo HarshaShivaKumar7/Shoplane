@@ -1,7 +1,9 @@
-*{
-    
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
 
-    box-sizing: border-box;
+
+
+*{
+        box-sizing: border-box;
 }
 
 html{
@@ -237,8 +239,9 @@ body {
 
 .drop-profile-detail > i:hover{
     cursor: pointer;
-    color: #ff0000;
+    color: #000000;
 }
+
 
 main{
     
@@ -583,6 +586,9 @@ footer > div:first-of-type{
     #menu-dropdown > .dropdown{
         top: 35px;
         right: 15px;
+    }
+    .fa-bars:hover {
+        display: none;
     }
 }
 
