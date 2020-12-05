@@ -1,12 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Javascript Final Project</title>
+        <title>Order Placed Successfully</title>
         <link rel="stylesheet" href="./index.css">
         <link rel="stylesheet" href="./success.css" >
+        <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/shopping-cart-71-543136.png" type="image/png">
+
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/35c398e458.js"></script>
     </head>
@@ -43,8 +44,8 @@
                             <p>HARSHA  </p>
                             <i id="dropdown-close-icon" class="fas fa-times"></i>
                         </li>
-                        <li><a id="clothing-redirection" href="./index.html#clothing-section">Clothing</a></li>
-                        <li><a id="accessory-redirection" href="./index.html#accessory-section">Accessories</a></li>
+                        <li><i class="fas fa-tshirt"></i><a id="clothing-redirection" href="#clothing-section">Clothing</a></li>
+                        <li><i class="fab fa-watchman-monitoring"></i><a id="accessory-redirection" href="#accessory-section">Accessories</a></li>
                         <li>
                             <a id="cart-redirection" href="./checkout.html">
                                 <i class="fas fa-shopping-cart"></i>
@@ -56,10 +57,12 @@
             </nav>
         </header>
         <main>
-            <div class="order-success-message-wrapper">
-                <i class="fas fa-check-circle"></i>
-                <h3>Order Placed Successfully!!</h3>
-                <p>We have sent you an email with the order details</p>
+            <div id="main-wrapper">
+                <div id="tick-wrapper">
+                    <img  src="https://test-hosting-8f9bf.web.app/assets/white-tick.png" />
+                </div>
+                <h1 class="main-heading">Order Placed Successfully!!</h1>
+                <p class="section-heading">We have sent you an email with the order details</p>
             </div>
         </main>
         <img class="edyoda-project-logo" src="https://i.imgur.com/OKAY6Fl.png" alt="Edyoda Project Logo">
