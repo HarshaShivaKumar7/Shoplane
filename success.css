@@ -138,3 +138,26 @@ body {
         display: none;
     }
 }
+/* 
+@media screen and (max-width: 350px){
+    .order-success-message-wrapper > i{
+        font-size: 150px;
+    }
+
+    .order-success-message-wrapper > h3{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .order-success-message-wrapper > p{
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 170px){
+    .order-success-message-wrapper > i{
+        font-size: 100px;
+    }
+} */
